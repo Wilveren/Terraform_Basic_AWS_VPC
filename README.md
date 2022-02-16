@@ -31,6 +31,6 @@ terraform apply
 
 # **Prerequisites**
 
-There are no special requirements or inputs required to deploy this, outside of what is necessary to run Terraform. As long as the Access Key and Secret Access Key in the AWS Credentials file are valid, the template can be deployed in your AWS Account. If necessary, don't forget to run '''aws configure''' into the AWS CLI to create or update this credentials file. 
+There are no special requirements or inputs required to deploy this, outside of what is necessary to run Terraform. As long as the Access Key and Secret Access Key in the AWS Credentials file are valid, the template can be deployed in your AWS Account. If necessary, don't forget to run ```aws configure``` into the AWS CLI to create or update this credentials file. 
 
 This template was built and tested using Terraform version 1.0.8, but should work on later versions.
